@@ -430,5 +430,188 @@ int main() {
             answer: "Heap"
         }
     ]
-}
+  },
+  {
+    chapter: 9,
+    chapter_name: "Sorting",
+    quiz: [
+      {
+        question: "Which of the following is the primary advantage of Linear Time Sorting algorithms like Counting Sort?",
+        code: null,
+        choices: [
+          "O(n log n) time complexity",
+          "Works only on numerical data",
+          "Linear time complexity",
+          "Always stable"
+        ],
+        answer: "Linear time complexity"
+      },
+      {
+        question: "What is the best-case time complexity for Bubble Sort?",
+        code: null,
+        choices: [
+          "O(n log n)",
+          "O(n^2)",
+          "O(n)",
+          "O(log n)"
+        ],
+        answer: "O(n)"
+      },
+      {
+        question: "Which sorting algorithm typically has better performance in the average case: QuickSort or Merge Sort?",
+        code: null,
+        choices: [
+          "Merge Sort",
+          "Bubble Sort",
+          "QuickSort",
+          "Heap Sort"
+        ],
+        answer: "QuickSort"
+      },
+      {
+        question: "Which of the following is a characteristic of a Linear Time Sort like Radix Sort?",
+        code: null,
+        choices: [
+          "It works by comparing elements",
+          "It requires O(n log n) time",
+          "It can only be used with integer values",
+          "It operates in linear time under certain conditions"
+        ],
+        answer: "It operates in linear time under certain conditions"
+      },
+      {
+        question: "Which sorting algorithm has the best performance in the worst-case scenario?",
+        code: null,
+        choices: [
+          "Merge Sort",
+          "Bubble Sort",
+          "QuickSort",
+          "Heap Sort"
+        ],
+        answer: "Merge Sort"
+      }
+    ]
+  },
+  {
+    chapter: 9,
+    chapter_name: "Linear Time Sort",
+    quiz: [
+      {
+        question: "Which of the following sorting algorithms can run in linear time under certain conditions?",
+        code: null,
+        choices: [
+          "Merge Sort",
+          "Counting Sort",
+          "Quick Sort",
+          "Bubble Sort"
+        ],
+        answer: "Counting Sort"
+      },
+      {
+        question: "Which scenario is ideal for Radix Sort to perform well?",
+        code: null,
+        choices: [
+          "Data is uniformly distributed",
+          "The data has many repeating elements",
+          "The number of digits in the data is small",
+          "The range of values is extremely large"
+        ],
+        answer: "The number of digits in the data is small"
+      },
+      {
+        question: "Which of the following sorting algorithms is NOT a linear time algorithm?",
+        code: null,
+        choices: [
+          "Counting Sort",
+          "Radix Sort",
+          "Bucket Sort",
+          "Merge Sort"
+        ],
+        answer: "Merge Sort"
+      },
+      {
+        question: "What is the time complexity of Counting Sort for sorting an array of size n with the range of elements being k?",
+        code: null,
+        choices: [
+          "O(n log n/k)",
+          "O(nk)",
+          "O(n + k)",
+          "O(k)"
+        ],
+        answer: "O(n + k)"
+      },
+      {
+        question: "Which of the following is a limitation of Counting Sort?",
+        code: null,
+        choices: [
+          "It cannot handle floating-point numbers",
+          "It requires O(n log n) space",
+          "It can only sort integers",
+          "It is not a stable sort"
+        ],
+        answer: "It cannot handle floating-point numbers"
+      }
+    ]
+  },
+  {
+    chapter: 10,
+    chapter_name: "Graph Algorithms",
+    quiz: [
+      {
+        question: "What is the minimum number of edges in a connected graph with 5 vertices?",
+        code: null,
+        choices: [
+          "4",
+          "5",
+          "6",
+          "10"
+        ],
+        answer: "4"
+      },
+      {
+        question: "Which type of graph is used in topological sorting?",
+        code: null,
+        choices: [
+          "Directed Acyclic Graph (DAG)",
+          "Directed Graph",
+          "Undirected Graph",
+          "Weighted Graph"
+        ],
+        answer: "Directed Acyclic Graph (DAG)"
+      },
+      {
+        question: "Which algorithm is used for finding the minimum spanning tree of a graph?",
+        code: null,
+        choices: [
+          "Dijkstra's Algorithm",
+          "Kruskal's Algorithm",
+          "Bellman-Ford Algorithm",
+          "Floyd-Warshall Algorithm"
+        ],
+        answer: "Kruskal's Algorithm"
+      },
+      {
+        question: "Which of the following algorithms is used to find the shortest path in a graph with negative weights?",
+        code: null,
+        choices: [
+          "Bellman-Ford Algorithm",
+          "Dijkstra's Algorithm",
+          "Floyd-Warshall Algorithm",
+          "Kruskal's Algorithm"
+        ],
+        answer: "Bellman-Ford Algorithm"
+      },
+      {
+        question: "In Dijkstra's algorithm, the shortest path is determined by choosing the vertex with the _____ distance from the source.",
+        code: null,
+        choices: [
+          "Maximum",
+          "Minimum",
+          "Average",
+          "Random"
+        ],
+        answer: "Minimum"
+      }
+    ]
+  }
 ]
